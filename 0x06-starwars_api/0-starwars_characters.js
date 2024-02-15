@@ -1,5 +1,5 @@
 #!/usr/bin/node
-const request request = require('request');
+const request = require('request');
 const API_URL = 'https://swapi-api.hbtn.io/api';
 
 if (process.argv.length > 2) {
