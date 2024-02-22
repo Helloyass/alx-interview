@@ -1,5 +1,5 @@
 #!/usr/bin/env fish
-pythonn3 -m doctest -v (basename (status -f))
+python3 -m doctest -v (basename (status -f))
 exit
 """
 >>> rotate_2d_matrix = __import__('0-rotate_2d_matrix').rotate_2d_matrix
